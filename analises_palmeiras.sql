@@ -20,13 +20,6 @@ ORDER BY total_vitorias DESC;
 
 
 SELECT 
-    mando_de_campo, 
-    AVG(faltas_cometidas) AS media_faltas,
-    SUM(cartao_amarelo) AS total_amarelos
-FROM jogos
-GROUP BY mando_de_campo;
-
-SELECT 
     j.posicao, 
     COUNT(g.id_gol) AS total_gols
 FROM gols g
@@ -46,6 +39,13 @@ GROUP BY adversario
 HAVING jogos_disputados > 3 -- Filtra para mostrar apenas times que enfrentou mais vezes
 ORDER BY vitorias DESC
 LIMIT 5;
+
+SELECT 
+    mando_de_campo, 
+    AVG(faltas_cometidas) AS media_faltas,
+    SUM(cartao_amarelo) AS total_amarelos
+FROM jogos
+GROUP BY mando_de_campo;
 
 
 SELECT 
