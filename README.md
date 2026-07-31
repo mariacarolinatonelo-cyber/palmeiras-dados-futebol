@@ -1,9 +1,9 @@
 # palmeiras-dados-futebol
-Banco de dados relacional estruturado em SQLite para análise de desempenho e estatísticas do Palmeiras entre 2020 e 2024.
-# ⚽ Análise de Dados e Estatísticas: Palmeiras (2020-2024)
+Banco de dados relacional estruturado em SQLite para análise de desempenho e estatísticas do Palmeiras entre 2021 e 2024.
+# ⚽ Análise de Dados e Estatísticas: Palmeiras (2021-2024)
 
 ## 📌 Sobre o Projeto
-Este projeto foi desenvolvido com o objetivo de estruturar e analisar dados de desempenho do Palmeiras entre os anos de 2020 e 2024. A iniciativa nasceu da necessidade de aplicar conceitos práticos de modelagem de dados e consultas SQL em um cenário dinâmico.
+Este projeto foi desenvolvido com o objetivo de estruturar e analisar dados de desempenho do Palmeiras entre os anos de 2021 e 2024. A iniciativa nasceu da necessidade de aplicar conceitos práticos de modelagem de dados e consultas SQL em um cenário dinâmico.
 
 Todo o levantamento, estruturação e normalização dos dados foram feitos do zero, transformando informações brutas em um banco de dados relacional completo em **SQLite**.
 
